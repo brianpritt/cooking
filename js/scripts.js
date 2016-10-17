@@ -1,27 +1,8 @@
-// function add(number1, number2){
-// 	return number1+ number2;
-// };
-//
-// alert(add(10,5));
-
-
-var add = function(number1, number2) {
-  return number1 + number2;
+function galToLit(number){
+	liter = number * 3.785;
+  return liter;
 };
-
-var subtract = function(number1, number2) {
-  return number1 - number2;
+function littToGal(number){
+	gallon = number * 0.26417;
+  return gallon;
 };
-
-var multiply = function(number1, number2) {
-  return number1 * number2;
-};
-
-var divide = function(number1, number2) {
-  return number1 / number2;
-};
-
-var number1 = parseInt(prompt("Enter a number:"));
-var number2 = parseInt(prompt("Enter another number:"));
-var result = add(number1, number2);
-alert(result);
